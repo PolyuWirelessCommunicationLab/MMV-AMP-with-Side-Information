@@ -1,4 +1,4 @@
-function [xnoise_withsi,x_withsi,mse,tau_est] =ampwithsi(A,N,M,L,y,xsig,maxN_itera,lambda,path_loss,p01,p10,sigma_1,xnoise_withsi,sigma_w)
+function [xnoise_withsi,x_withsi,mse,tau_est] =noisyCAMPmmseforKLSwithsi(A,N,M,L,y,xsig,maxN_itera,lambda,path_loss,p01,p10,sigma_1,xnoise_withsi,sigma_w)
 z = y;
 x_withsi = zeros(N,M);
 sum_gain = 0;
