@@ -11,7 +11,7 @@ If you have any question or find any bug, welcome to contact me at: qipeng.wang@
 title={Exploiting Temporal Side Information in Massive IoT Connectivity},<br>
 author={Qipeng Wang and Liang Liu and Shuowen Zhang and Francis C.M. Lau},<br>
 note={to appear in {\it IEEE Trans. Wireless Commun.}}<br>
-}
+}<br>
 @conference{wang2021massive,<br>
   title={On Massive IoT Connectivity with Temporally-Correlated User Activity},<br>
   author={Qipeng Wang and Liang Liu and Shuowen Zhang and Francis C.M. Lau},<br>
