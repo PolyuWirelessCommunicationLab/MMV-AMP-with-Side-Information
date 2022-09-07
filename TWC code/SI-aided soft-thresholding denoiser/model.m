@@ -119,6 +119,8 @@ parfor mtc=1:MTC
 end
 %%%%%%%start detection
 for blk=1:2:10
+    P_md_h=zeros(1,15);
+    P_fa_h=zeros(1,15);
     d_K_sort = sort(D_abs_store(:,blk,:),'descend');
 for j =1:15
     N_fa=0;
