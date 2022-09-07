@@ -1,5 +1,5 @@
 # MMV-AMP-with-Side-Information
-TWC folder: code for our journal paper: [Exploiting Temporal Side Information in Massive IoT Connectivity] (https://arxiv.org/pdf/2201.01485.pdf).<br>
+TWC folder: code for our journal paper: [Exploiting Temporal Side Information in Massive IoT Connectivity](https://arxiv.org/pdf/2201.01485.pdf).<br>
 ISIT folder: code for our conference paper: [On Massive IoT Connectivity with Temporally-Correlated User Activity](https://arxiv.org/pdf/2101.11344.pdf).<br>
 # Content and Introduction
 TWC folder: Implementation of side information (SI)-aided approximate message passing algorithm with SI-aided soft-thresholding denoiser/SI-aided MMSE denoiser.<br>
