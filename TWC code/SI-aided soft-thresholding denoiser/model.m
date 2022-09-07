@@ -1,7 +1,7 @@
 clear;
 tic;
 N=2000; %total number of users
-MTC=100; %number of monte-carlo 
+MTC=10000; %number of monte-carlo 
 K=200; %number of active users at each coherence block
 L=500; %length of pilot sequence
 alpha=0.55; %p11, inactive to inactive
@@ -119,8 +119,6 @@ parfor mtc=1:MTC
 end
 %%%%%%%start detection
 for blk=1:2:10
-    P_fa=zeros(1,1);
-    P_md=zeros(1,1);
     d_K_sort = sort(D_abs_store(:,blk,:),'descend');
 for j =1:15
     N_fa=0;
