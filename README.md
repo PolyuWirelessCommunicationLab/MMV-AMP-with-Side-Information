@@ -3,7 +3,7 @@ TWC folder: code for our journal paper: [Exploiting Temporal Side Information in
 ISIT folder: code for our conference paper: [On Massive IoT Connectivity with Temporally-Correlated User Activity](https://arxiv.org/pdf/2101.11344.pdf).<br>
 # Content and Introduction
 TWC folder: Implementation of side information (SI)-aided approximate message passing algorithm with SI-aided soft-thresholding denoiser/SI-aided MMSE denoiser.<br>
-ISIT folde: Implementation of side information (SI)-aided approximate message passing algorithm with SI-aided MMSE denoiser and SI-aided detector.<br>
+ISIT folder: Implementation of side information (SI)-aided approximate message passing algorithm with SI-aided MMSE denoiser and SI-aided detector.<br>
 # Read Me
 If you have any question or find any bug, welcome to contact me at: qipeng.wang@connect.polyu.hk 
 # Citation
