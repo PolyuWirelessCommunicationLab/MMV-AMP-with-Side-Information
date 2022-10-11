@@ -39,7 +39,7 @@ parfor mtc=1:MTC
         y_user=(rand(N,1)-0.5)*500;
         for n=1:N
            distance(n) = sqrt(x_user(n)^2+y_user(n)^2);
-           path_loss(n) = 10^((-128.1 - 37.6*log10(distance(n)*1e-3))/10);
+           path_loss(n) = 10^((-128.1 - 36.7*log10(distance(n)*1e-3))/10);
            h(n,:) = sqrt(1/2)*(randn(1,M) + sqrt(-1)*randn(1,M))*sqrt(path_loss(n));
            D_channel(n,:)=h(n,:);
         end
