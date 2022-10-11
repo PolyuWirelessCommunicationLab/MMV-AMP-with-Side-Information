@@ -56,7 +56,7 @@ parfor mtc = 1: MTC
         distance = zeros(N,1)*1000; 
         for n=1:N
             distance(n)=sqrt(x_user(n)^2+y_user(n)^2);
-            path_loss(n)=10^((-128.1-37.6*log10(distance(n)*1e-3))/10);
+            path_loss(n)=10^((-128.1-36.7*log10(distance(n)*1e-3))/10);
         end
         path_loss_store(:,mtc) = path_loss;
         power = 10^(2.3)*10^(-3);
