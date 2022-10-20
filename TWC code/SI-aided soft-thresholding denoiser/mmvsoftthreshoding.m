@@ -30,7 +30,7 @@ for i = 1:maxN_itera
         else
             x_est(n,:) = zeros(1,M);
         end
-        etaprime=(1*eye(M)-thre/norm(input(n,:))*eye(M)+0.5*thre*input(n,:)'*input(n,:)/(norm(input(n,:)))^3)*(tmp>=0);
+        etaprime=(1*eye(M)-thre/norm(input(n,:))*eye(M)+thre*input(n,:)'*input(n,:)/(norm(input(n,:)))^3)*(tmp>=0);
         avgxprime=avgxprime+etaprime;  
     end
     %%%damping
